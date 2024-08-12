@@ -1,0 +1,28 @@
+.todo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  border: 1px solid lightgrey;
+  padding: 13px;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.remove-button {
+  margin-right: 7px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.edit-button {
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.todo-update-input {
+  width: 85%;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  outline: none;
+}
